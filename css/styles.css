@@ -43,7 +43,6 @@ h5 {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  
 }
 .visually-hidden {
   position: absolute;
@@ -144,16 +143,24 @@ img {
 .section-solutions {
   background-color: var(--navyblue);
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
 }
 
 /* Головний заголовок */
 .main-container {
   width: 100%;
   height: 600px;
- 
+
   padding-top: 188px;
   padding-bottom: 292px;
-  
 }
 .title-one {
   color: #ffffff;
@@ -162,7 +169,7 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  background: #2e2f42;
+  /* background: #2e2f42; */
   max-width: 496px;
 }
 .title-container {
@@ -277,6 +284,27 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+}
+
+/* П"ята частина */
+.customers-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.customer-list {
+  display: flex;
+  gap: 24px;
+}
+.customer-list-item {
+  display: block;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: 1px solid var(--lightslate, #8e8f99);
+  /* flex-basis: calc((100% - 88px) / 6); */
+}
+.customer-list-icon {
+  
 }
 
 /* Підвал */
