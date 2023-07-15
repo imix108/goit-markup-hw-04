@@ -114,7 +114,7 @@ img {
   letter-spacing: 0.02em;
   padding: 24px 0;
   display: block;
-  transition: color 250ms ease;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .current {
@@ -151,7 +151,7 @@ img {
   letter-spacing: 0.02em;
   padding: 24px 0;
   display: block;
-  transition: color 250ms ease;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contacts-link:hover,
@@ -214,7 +214,7 @@ img {
   padding: 16px 32px;
   margin: 0 auto;
   margin-top: 48px;
-  transition: color 250ms ease;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-button:hover,
@@ -359,7 +359,7 @@ img {
   align-items: center;
   border-radius: 50%;
   background-color: var(--iris);
-  transition: color 250ms ease;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-list-item :hover,
