@@ -348,12 +348,15 @@ img {
   align-items: center;
   border-radius: 50%;
   background-color: var(--iris);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socials-list-item :hover,
-.socials-list-item :focus {
-  background-color: var(--green, #31d0aa);
+.socials-list-item :hover {
+  background-color: var(--ocean);
+}
+
+.socials-list-link :focus {
+  background-color: var(--ocean);
 }
 
 .socials-icon {
@@ -388,7 +391,7 @@ img {
   border-radius: 4px;
   border: 1px solid var(--lightslate);
   color: var(--lightslate);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customer-list-link:hover, .customer-list-link:focus {
